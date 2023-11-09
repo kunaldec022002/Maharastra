@@ -1,0 +1,117 @@
+
+      .conatiner{
+        
+        background-image:url('./../Images/R.jpg') ;
+        background-size: 1500px 600px;
+        border-color: 3px brown;
+        height: 500px;
+        width: 1500px;
+        display: flex;
+      
+      }
+      .Box{
+        
+        font-size: 30px;
+        height: 300px;
+        width: 300px;
+        margin-inline: 20px;
+        flex-direction:row;
+        border-radius: 20px;
+        box-shadow: 1px 2px 3px 2px black;
+        
+
+      }
+      .item{
+        display: flex;
+        margin-left: 270px;
+        margin-top: 100px;
+        height: px;
+        font-style: oblique;
+        text-align: center;
+        
+      }
+
+      .text{
+       color: rgb(43, 26, 5);
+       font-size: larger;
+       margin-left: 600px;
+      }
+
+      .page{
+        background: linear-gradient(to top right, #ccffff 0%, #ffcccc 100%);
+       background-size: 1500px 650px;
+       padding: 5px;
+      }
+
+      .gmail{
+        color: rgb(17, 13, 8);
+       font-size: larger;
+       margin-left: 615px;
+      
+      }
+
+   
+
+      .button
+      {
+        display: block;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px;
+        background-color: #3399ff;
+        border-radius: 5px;
+        color: black;
+        text-decoration: none;
+            
+      }
+      .button:hover
+      {
+        cursor: pointer;
+        font-size: 21px;
+        
+      }
+
+      .input-text
+      {
+        font-size: 20px;
+        border-radius: 5px;
+        border: 2px solid black;
+        margin-top: 50px;
+      }
+
+      .submit-btn
+      {
+        border-radius: 3px;
+        font-size: 14px;
+      }
+
+      
+      .submit-btn:hover
+      {
+        background-color: greenyellow;
+        cursor: pointer;
+        font-size: 15px;
+        box-shadow: 3px 1px 5px 3px black;
+      }
+
+      /* footer*/
+
+      .footer-main {
+        display:flex;
+        justify-content: space-evenly;
+        background-color:goldenrod ;
+        color: black;
+        flex-wrap: wrap;
+       
+        padding: 20px;
+     }
+     
+     @media (max-width: 600px) {
+        .footer-about, .footer-services, .footer-contact, .footer-follow {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+     }
+
+      

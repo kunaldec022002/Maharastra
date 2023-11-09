@@ -1,0 +1,111 @@
+.container-fluid
+{
+   padding: 5px;
+}
+
+.img-fluid
+{
+   width: 1550px;
+
+}
+
+
+li a
+{
+   margin-left: 60px;
+   font-size: 23px;
+}
+
+
+
+#home-img
+{
+   height: 650px;
+}
+
+/* Mumbai section */
+
+
+.mumbai-head
+{
+   text-align: center;
+   font-size: 30px;
+   font-family: cursive;
+}
+
+ .mumbai-img
+ {
+   margin: 10px;
+   width: 700px;
+   height: 400px;
+ }
+ 
+ .m-para
+ {
+   padding: 10px;
+   margin: 10px;
+ }
+
+/*Hill Station*/
+
+.hill-station
+{
+   font-size: 40px;
+   font-family: cursive;
+   text-align: center;
+
+}
+
+.card
+{
+   box-shadow: 1px 3px 5px 3px black;
+}
+
+
+/*--------Social media section-------*/
+
+#social-media
+{
+   
+    padding: 60px 0px ;
+}
+
+#social-media p
+{
+    font-size:36px ;
+    margin-bottom: 30px;
+
+}
+
+.social-icons img
+{
+   border-radius: 10px;
+   box-shadow: 1px 3px 5px 3px black;
+    width: 40px;
+    margin: 5px;
+    transition: 0.5s;
+}
+
+.social-icons a:hover img
+{
+    transform: translateY(-10px);
+}
+
+/* footer section*/
+
+.footer-main {
+   display:flex;
+   justify-content: space-evenly;
+   background-color:goldenrod ;
+   color: black;
+   flex-wrap: wrap;
+  
+   padding: 20px;
+}
+
+@media (max-width: 600px) {
+   .footer-about, .footer-services, .footer-contact, .footer-follow {
+       width: 100%;
+       margin-bottom: 20px;
+   }
+}

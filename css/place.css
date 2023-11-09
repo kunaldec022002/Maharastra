@@ -1,0 +1,120 @@
+.nav-bar{
+    background-color: none;
+    color: black;
+    height: 60px;
+    padding: 10px;
+    margin-left: -7px;
+    margin-right: 10px;
+    margin-top: -7px;
+    display: flex;
+    justify-content: end;
+    font-size: 10px;
+    top: 5px;
+    
+}
+.nav-btn{
+    margin: 5px;
+    text-decoration: none;
+    margin-right: 15px;
+    border-radius: 5px;
+    color: black;
+    padding: 4px;
+    margin-top: 20px;
+    font-size: 20px;
+    color:black;
+    font-family:'Gill Sans', 'Gill Sans MT', 
+    Calibri, 'Trebuchet MS', sans-serif; 
+ }
+ .nav-btn:hover{
+    box-shadow: 1px 1px 5px 1px black;
+    transition: 0.5s;
+    height: 22px;
+    
+ }
+ .nav-img{
+    height: 80px;
+    width: 100px;
+    margin-right: 450px;
+    margin-top: -9px;
+}
+.welcome-heading
+{
+    background-size: cover;
+    background-color:darksalmon;
+    box-shadow: 0px 0px 5px 3px;
+    padding: 20px;
+}
+
+.welcome
+{
+    color:black;
+    font-size: 50px;
+    text-align: center; 
+}
+
+body
+{
+    margin: 2px;
+}
+
+.welcome-slogan
+{
+    color:black;
+    text-align: center;
+    font-size: 30px;
+}
+
+.Places
+{
+    display:block;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.placechild{
+
+        text-align: center;
+        display: inline-block;
+        margin: 50px;
+}
+
+
+
+.img{
+    height: 350px;
+    width: 390px;
+    border-radius: 10px;
+    border: 2px black solid;
+}
+.img:hover{
+    transition: 0.5s;
+    box-shadow: 0px 0px 5px 4px;
+    height: 352px;
+    width: 392px;
+    cursor: pointer;
+}
+.text{
+    font-size: 30px;
+    font-family: "'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif";
+}     
+
+/* footer section*/
+
+.footer-main {
+    display:flex;
+    justify-content: space-evenly;
+    background-color:goldenrod ;
+    color: black;
+    flex-wrap: wrap;
+   
+    padding: 20px;
+ }
+ 
+ @media (max-width: 600px) {
+    .footer-about, .footer-services, .footer-contact, .footer-follow {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+ }
+
+

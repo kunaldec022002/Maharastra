@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About us</title>
+        <style>
+              body{
+                margin:0%;
+                background-image: url(../Images/about-background.png);
+                background-size: cover;
+            }
+            .nav-bar{
+                background-color: none;
+                color: black;
+                padding: 10px;
+                height:60px;
+                margin-left: -7px;
+                margin-right: 10px;
+                margin-top: -7px;
+                display: flex;
+                justify-content: end;
+                font-size: 10px;
+                top: 5px;
+                
+            }
+            .nav-btn{
+                margin: 5px;
+                text-decoration: none;
+                margin-right: 15px;
+                color: black;
+                padding: 4px;
+                margin-top: 20px;
+                font-size: 20px;
+                color:black;
+                font-family:'Gill Sans', 'Gill Sans MT', 
+                Calibri, 'Trebuchet MS', sans-serif; 
+             }
+             .nav-btn:hover{
+                box-shadow: 1px 1px 5px 1px black;
+                transition: 0.5s;
+                
+             }
+             .nav-img{
+                height: 80px;
+                width: 100px;
+                margin-right: 450px;
+                margin-top: -9px;
+            }
+
+
+            .ourteam{
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 40px;
+                font-weight: bold;
+            }
+            .cont-team{
+                display:flex;
+                justify-content: space-evenly;
+                flex-direction: row;
+              
+            }
+            .member{
+                display:inline-block;
+                padding:20px;
+                height:430px;
+                width:225px;
+                border-radius: 5px;
+                margin-bottom: 30px;
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, 
+                rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, 
+                rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+                text-align: center;
+                
+            }
+            .member:hover{
+                box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+                transition:0.3s;
+            }
+            .img-profile{
+                height: 200px;
+                width:200px;
+                border-radius:50%;
+                display:block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 25px;
+                margin-bottom: 30px;
+            }
+            .name{
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                font-size:22px;
+                text-align: center;
+            }
+            .img-linkedin{
+                display:inline-block;
+                height: 30px;
+                width: 30px;
+            }
+            .l{
+                display:block;
+                text-decoration: none;
+            }
+
+
+            .foot{
+                background-color: rgb(215, 203, 154);
+                text-align: center;
+
+            }
+            .foot-name{
+                font-size: 20px;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+                font-weight: bold;
+            }
+            .foot-img{    
+                height: 40px;
+                width: 50px;
+            }
+        </style>
+
+<link rel="stylesheet" href="../css/index.css"/>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+  integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/place.css">
+  
+    </head>
+    <body>
+       
+        <nav class="navbar navbar-expand-lg bg-warning">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Explore-Maharastra</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../html/images.html">Images</a>
+                  </li>
+                 
+                  <li class="nav-item">
+                    <a class="nav-link" href="../html/places.html">Places</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../html/aboutus.html">About Us</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="../html/contact.html">Contact Us</a>
+                  </li>
+                  
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+        <div class="ourteam">
+            <p>Our Team</p>
+        </div>
+             
+        <div class="cont-team">
+            <div class="member">
+                <img src="../Images/Kunal Ingle.jpg" class="img-profile"/>
+                <p class="name">Kunal Ingle</p>
+                <img src="../Images/linkedin.png" class="img-linkedin"/>
+                <a href="" class="l">Kunal Ingle</a>
+                
+            </div>
+            <div class="member">
+                <img src="../Images/Vishal Phadatare.jpg" class="img-profile"/>
+                <p class="name">Vishal Phadatre</p>
+                <img src="../Images/linkedin.png" class="img-linkedin"/>
+                <a href="" class="l">Vishal Phadatre</a>
+            </div>
+            <div class="member">
+                <img src="../Images/Sanchit Shitole.jpg" class="img-profile"/>
+                <p class="name">Sanchit Shitole</p>
+                <img src="../Images/linkedin.png" class="img-linkedin"/>
+                <a href="https://www.linkedin.com/in/sanchit-shitole-62718824b/" class="l">Sanchit Shitole</a>
+            </div>
+            <div class="member">
+                <img src="../Images/Anagha Thorat.jpg" class="img-profile"/>
+                <p class="name">Anagha Thorat</p>
+                <img src="../Images/linkedin.png" class="img-linkedin"/>
+                <a href="https://www.linkedin.com/in/anagha-thorat-859771275/" class="l">Angha Thorat</a>
+            </div>
+        </div>
+        <div class="cont-team">
+
+            <div class="member">
+                <img src="../Images/Lokesh Manapure.jpg" class="img-profile"/>
+                <p class="name">Lokesh Manapure</p>
+                <img src="../Images/linkedin.png" class="img-linkedin"/>
+                <a href="https://www.linkedin.com/in/lokesh-manapure-a35929232/" class="l">Lokesh Manapure</a>
+                
+            </div>
+           
+
+            <div class="member">
+                <img src="https://images.pexels.com/photos/2055100/pexels-photo-2055100.jpeg?auto=compress&cs=tinysrgb&w=600" class="img-profile"/>
+                <p class="name">Pooja</p>
+                <img src="../Images/linkedin.png" class="img-linkedin"/>
+                <a href="" class="l">Pooja</a>
+            </div>
+            <div class="member">
+                <img src="https://images.pexels.com/photos/2055100/pexels-photo-2055100.jpeg?auto=compress&cs=tinysrgb&w=600" class="img-profile"/>
+                <p class="name">Aniruddha Kalsait</p>
+                <img src="../Images/linkedin.png" class="img-linkedin"/>
+                <a href="" class="l">Anniruddha Kalsait</a>
+            </div>
+            <div class="member">
+                <img src="../Images/Kshteel Parkale.jpg" class="img-profile"/>
+                <p class="name">Kshiteej Prakale</p>
+                <img src="../Images/linkedin.png" class="img-linkedin"/>
+                <a href="https://www.linkedin.com/in/kshiteej-parkale-95a481255/" class="l">Kshiteej Parakale</a>
+            </div>
+        </div>
+        
+        <br/><br/><br/><br/><br/><br/><br/>
+       
+        <div class="footer-main">
+            <div class="footer-about">
+                <h3>About Us</h3>
+                <p>Company information here...</p>
+                <p>About</p>
+            </div>
+            <div class="footer-services">
+                <h3>Services</h3>
+                <p>Services information here...</p>
+                <p>Sytytiuretu</p>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+               <p><input type="email"placeholder="enter your email" required/></p>
+               <p><input type="password"placeholder="enter your password" required></p>
+               <p><button>Submit</button></p>
+            </div>
+            <div class="footer-follow">
+                <h3>Follow Us</h3>
+                
+                <div class="social-icons">
+
+
+                    <a href="#"><img src="./Images/social icons/whatsapp.png" class="about-footer-icon"></a>
+                    <a href="https://github.com/anuprita8540/car_collection" class="about-footer-icon"><img src="./Images/social icons/github-sign.png"></a>
+                    <a href="#"><img src="./Images/social icons/facebook (1).png" class="about-footer-icon"></a>
+                    <a href="#"><img src="./Images/social icons/gmail (1).png" class="about-footer-icon"></a>
+                    <a href="#"><img src="./Images/social icons/twitter (2).png" class="about-footer-icon"></a>
+      
+                    
+      
+                  </div>
+            </div>
+        </div>
+    </footer>
+       
+    </body>
+</html>
