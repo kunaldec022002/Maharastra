@@ -64,13 +64,9 @@ body
     font-size: 30px;
 }
 
-.Places
-{
-    display:block;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 50px;
-}
+
+
+    
 .placechild{
 
         text-align: center;

@@ -55,6 +55,16 @@ li a
    text-align: center;
 
 }
+.hill-container
+{
+   display: flex;
+   width: fit-content;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   margin: 15px;
+
+   
+}
 
 .card
 {
@@ -62,34 +72,7 @@ li a
 }
 
 
-/*--------Social media section-------*/
 
-#social-media
-{
-   
-    padding: 60px 0px ;
-}
-
-#social-media p
-{
-    font-size:36px ;
-    margin-bottom: 30px;
-
-}
-
-.social-icons img
-{
-   border-radius: 10px;
-   box-shadow: 1px 3px 5px 3px black;
-    width: 40px;
-    margin: 5px;
-    transition: 0.5s;
-}
-
-.social-icons a:hover img
-{
-    transform: translateY(-10px);
-}
 
 /* footer section*/
 
@@ -99,8 +82,48 @@ li a
    background-color:goldenrod ;
    color: black;
    flex-wrap: wrap;
-  
    padding: 20px;
+}
+a img
+{
+   height: 35px;
+   margin: 5px;
+   box-shadow:1px 3px 5px 2px black;
+   border-radius: 10px;
+   
+}
+a img:hover
+{
+   height: 32px;
+}
+ a:hover img
+{
+    transform: translateY(-10px);
+    transition: 1s;
+}
+
+p a
+{
+   color: #000000;
+   text-decoration: none;
+   margin-left: 10px;
+}
+
+p button
+{
+   border-radius: 5px;
+   background-color: #000000;
+   color: #fff;
+}
+p button:hover
+{
+   background-color:blue;
+   color: black;
+}
+p input
+{
+   border-radius: 5px;
+   padding: 5px 10px;
 }
 
 @media (max-width: 600px) {
