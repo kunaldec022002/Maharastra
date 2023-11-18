@@ -4,6 +4,31 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.container-fluid
+{
+   padding: 5px;
+}
+
+.img-fluid
+{
+   width: 1550px;
+
+}
+
+
+li a
+{
+   margin-left: 60px;
+   font-size: 23px;
+}
+
+
+
+#home-img
+{
+   height: 650px;
+}
+
 
 
 
@@ -71,9 +96,6 @@ p{
 }
 
 
-.p-foot{
-    font-size: 15px;
-}
 
 /* footer section*/
 
@@ -83,8 +105,9 @@ p{
     background-color:goldenrod ;
     color: black;
     flex-wrap: wrap;
-   padding: 20px;
+    padding: 20px;
  }
+ 
  
  @media (max-width: 600px) {
     .footer-about, .footer-services, .footer-contact, .footer-follow {

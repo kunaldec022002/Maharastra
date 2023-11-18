@@ -113,4 +113,16 @@ body
     }
  }
 
+/*slidebar img*/
 
+.place-img-slide
+{
+    height: 670px;
+}
+
+.footer-img
+{
+    height: 200px;
+    box-shadow: 1px 3px 5px 3px black;
+    border-radius: 10px;
+}
